@@ -1,4 +1,4 @@
-# Installation
+# Install
 !pip install -U arize-phoenix openinference-instrumentation-openai openinference-instrumentation-google-genai "google-genai<2.0.0" "opentelemetry-api<1.39.0" "opentelemetry-sdk<1.39.0" groq openai datasets -q
 
 # Instrumention connection
