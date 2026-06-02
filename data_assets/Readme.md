@@ -12,7 +12,8 @@ This directory houses the foundational clinical text assets used to benchmark th
 ---
 
 ## 🏆 Public Showcase Cases (Vulnerability Cohort)
-To demonstrate the clinical validation framework without exposing the entire proprietary testing suite, 3 distinct adversarial cases are published in full below. 
+To demonstrate the clinical validation framework without exposing the entire proprietary testing suite, 5 distinct adversarial cases are published in full below.
+(Showcase cases are listed by their original cohort IDs to maintain consistency with the automated evaluation logs.)
 
 ### 🩻 Case 3: Kideny Disease 
 * **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
