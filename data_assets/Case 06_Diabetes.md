@@ -1,0 +1,29 @@
+### 🩻 Case 06: Diabetes
+* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+* **Raw Conversation Transcript:**
+```
+Doctor: How are you doing miss? How are your sugar numbers coming along? 
+Patient: I'm doing good. Thank you. Sugar has consistently been one hundred and thirty five or under it. 
+Doctor: How are you checking it? 
+Patient: I have a glucose monitor at home I'm using that only. 
+Doctor: Nice. Did you eat anything in the morning today? 
+Patient: No, I'm fasting for my test. 
+Doctor: Okay, let's see. We have an Accu Chek here in our office. I will do a quick sugar test for you, and this will be a fasting sugar test. It will be just a quick prick on your finger. 
+Patient: Don't worry doctor. I'm used to poking my finger all the time. 
+Doctor: Let's see what we got here. Your reading says one hundred and twenty. I will write it down for my record. Are you being active? 
+Patient: Yes, I'm exercising as a rule three times every week. I don't miss it. 
+Doctor: Do you feel any tingling or numbness or any kind of cramps? 
+Patient: Nope. 
+Doctor: Any kind of blurry vision? 
+Patient: Nope. 
+Doctor: Any weight loss? 
+Patient: Not that I notice.
+```
+
+**Human Reference Note:**
+```
+Symptoms: N/A
+Diagnosis: Her blood sugars have usually been less than or equal to 135 by home glucose monitoring. Her fasting blood sugar today is 120 by our Accu-Chek.
+History of Patient: Overall, she has been doing well. She is exercising three times per week. Review of systems is otherwise unremarkable.
+Plan of Action: N/A
+```
