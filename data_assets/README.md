@@ -17,39 +17,7 @@ To demonstrate the clinical validation framework without exposing the entire pro
 Deep-dive clinical analysis is publicly available for 5 showcase cases. Full case materials for all 10 are available here. Extended analysis available upon professional inquiry.
 
 
-### 🩻 Case 4: A rare form of Blood Cancer (Polycythemia Vera)
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
-* **Raw Conversation Transcript:**
-```
-Doctor: Hello Mister Strange, can you please confirm your age and ethnicity for the records.
-Patient: Hi Doctor, I am fifty five now and would identify myself as a white male. 
-Doctor: Let's first talk about your medical condition. There has been a diagnosis of polycythemia vera with secondary myelofibrosis. Also, you are J A K two positive. Do you remember when you were diagnosed?
-Patient: It was sometimes between two thousand and five and six. 
-Doctor: They did phlebotomy and then subsequently you got yourself transferred here in our healthcare. 
-Patient: Yes.
-Doctor: You have been on hydroxyurea and interferon, right?
-Patient: Oh, it was a terrible time, I could not deal with anyone of them. I had numbness and tingling with burning pain in my hands.
-Doctor: You do not have any siblings that we can try for transplant match?
-Patient: That's right! 
-Doctor: You were also considered for the Matched Unrelated Donor Transplant, but you couldn't be on the list due to social support and also health was in reasonably better state than other candidates normally on that transplant list.
-Patient: We had some medications here as well when I first started my care here, I forgot the name. 
-Doctor: Yes, here we started you on a trial of lenalidomide and prednisone for some time. You were doing great on that for a while, but then you developed intolerance to lenalidomide. 
-Patient: Yes, I had severe diarrhea and I always felt tired like I have no energy left in me. Eventually it all stopped. 
-Doctor: Yeah, here it says that you injured your leg? Tell me what happened. 
-Patient: It all happened last week, I injured this left leg and got swelling. I had some prescribed steroids, so I took them for about three days only. The swelling is eventually gone now.
-Doctor: Any other related complaints?
-Patient: No.
-Doctor: Do you smoke or drink?
-Patient: I take marijuana. I feel really hungry after smoking it, so I eat a lot. In just the last few weeks I have gained a few pounds. 
-Doctor: Okay, your overall performance status in the E C O G scale is one.
-```
-Ground Truth (Human Reference Note):
-```
-Symptoms: swelling in the left leg (resolved), severe fatigue, diarrhea
-Diagnosis: polycythemia vera with secondary myelofibrosis, JAK2 positive
-History of Patient: Diagnosis made between 2005 and 2006, underwent phlebotomy initially, transferred care to current healthcare institution, intolerance to hydroxyurea and interferon, considered for Matched Unrelated Donor Transplant but not a candidate due to social support and relatively good health, trial of lenalidomide and prednisone with subsequent intolerance to lenalidomide, injury to left leg with swelling (resolved)
-Plan of Action: N/A
-```
+
 ### 🩻 Case 7:  Pediatrics Case
 * **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
 * **Raw Conversation Transcript:**
