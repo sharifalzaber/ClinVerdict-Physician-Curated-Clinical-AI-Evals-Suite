@@ -1,6 +1,6 @@
-🩻 Case 01: Neurology- HIV patient 
-Failure Vector Targeted: [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
-Raw Conversation Transcript:
+### 🩻 Case 01: Neurology- HIV patient
+* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+* **Raw Conversation Transcript:**
 ```
 Patient: I'm right handed. 
 Doctor: Tell me what brings you here, sir? 
