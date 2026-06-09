@@ -16,30 +16,7 @@ To demonstrate the clinical validation framework without exposing the entire pro
 (Showcase cases are listed by their original cohort IDs to maintain consistency with the automated evaluation logs.)
 Deep-dive clinical analysis is publicly available for 5 showcase cases. Full case materials for all 10 are available here. Extended analysis available upon professional inquiry.
 
-### 🩻 Case 3: Kideny Disease 
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
-* **Raw Conversation Transcript:**
-```text
-Doctor: Hi there! I am Doctor Kim. Nice to meet you, miss. 
-Patient: Hi! Nice to meet you. 
-Doctor: How are you feeling today? 
-Patient: I am feeling much better today. 
-Doctor: How old are you? 
-Patient: I am forty six. 
-Doctor: How is your pain in the left side? 
-Patient: It is much better. It is more like a dull pain now.
-Doctor: Are you still having trouble with urination? 
-Patient: It has gotten better but is still a little difficult. 
-Doctor: Okay. It looks like Doctor X did an exam yesterday. Doctor X consulted me on your status but I have a question for you. I see in your medical history that you had a bruised left kidney. Can you tell me more about the bruised kidney? 
-Patient:  Yes. I was in a car accident, years ago. The doctor told me that I had a bruised left kidney. They thought it was due to the accident, but they could not be certain
-```
-Ground Truth (Human Reference Note):
-```
-Symptoms: Left flank pain (now dull), difficulty urinating (improving)
-Diagnosis: N/A
-History of Patient: Presented to the emergency room with left flank pain and difficulty urinating, vague history of bruised left kidney in a motor vehicle accident, feeling much better today
-Plan of Action: N/A
-```
+
 ### 🩻 Case 4: A rare form of Blood Cancer (Polycythemia Vera)
 * **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
 * **Raw Conversation Transcript:**
