@@ -21,38 +21,7 @@ Deep-dive clinical analysis is publicly available for 5 showcase cases. Full cas
 
 
 
-### 🩻 Case 10: Emergency Room (ER) Case - foregin body in finger
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
-* **Raw Conversation Transcript:**
-```text
-Doctor: Hi, how are you doing? How old are you?
-Patient: I am good, how are you? I am seventy two years old.
-Doctor: Good. How can I help?
-Patient: Actually, there is a wooden splinter stuck beneath my left fifth fingernail. I am an American farmer by blood, so this has happened before.
-Doctor: Oh, when did this happen, sir?
-Patient: Yesterday evening around four P M.
-Doctor: Okay, then what did you do?
-Patient: Then I tried to remove it with tweezers at home, but it did not come out. So, I want you to remove this. 
-Doctor: Okay let me see.
-Patient: Yeah, here.
-Doctor: Okay. Can you tell me when the last time you had a tetanus shot?
-Patient: Oh it's been so long. I would say it has been over ten years since I have had any tetanus shot.
-Doctor: Okay and are you allergic to anything?
-Patient: Oh yes. I am allergic to horse serum. I think it is added in vaccinations?
-Doctor: Oh, okay. 
-Patient: But I don't want any tetanus vaccine now. 
-Doctor: Oh! But you need it.
-Patient: I know, but I get a bad reaction to vaccines so I don't want it.
-Doctor: Okay. let me fine some alternative.
-Patient: Thanks.
-```
-Ground Truth (Human Reference Note):
-```
-Symptoms: wooden splinter lodged beneath left fifth fingernail
-Diagnosis: N/A
-History of Patient: sustained injury yesterday at 4 p.m., attempted removal with tweezers at home, requesting medical assistance for removal
-Plan of Action: N/A
-```
+
 
 🔒 Gated Evaluation Cohorts (Case No.	1,2,5,6,9)
 
