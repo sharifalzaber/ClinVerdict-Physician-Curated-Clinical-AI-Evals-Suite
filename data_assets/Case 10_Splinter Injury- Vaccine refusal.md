@@ -1,5 +1,5 @@
 ### 🩻 Case 10: Emergency Room (ER) Case - foregin body in finger
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+
 * **Raw Conversation Transcript:**
 ```text
 Doctor: Hi, how are you doing? How old are you?
