@@ -1,5 +1,5 @@
 ### 🩻 Case 8: All negative responses from patient 
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+
 * **Raw Conversation Transcript:**
 ```
 Doctor: I'm going to run down a list of symptoms and I'd like you to tell me if you've experienced any. 
