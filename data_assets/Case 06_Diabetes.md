@@ -1,5 +1,5 @@
 ### 🩻 Case 06: Diabetes
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+
 * **Raw Conversation Transcript:**
 ```
 Doctor: How are you doing miss? How are your sugar numbers coming along? 
