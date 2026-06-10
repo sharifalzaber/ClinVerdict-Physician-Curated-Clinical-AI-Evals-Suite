@@ -1,5 +1,5 @@
 ### 🩻 Case 02: Lumbar Puncture
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+
 * **Raw Conversation Transcript:**
 ```
 Doctor: They took some fluid out of your back remember? 
