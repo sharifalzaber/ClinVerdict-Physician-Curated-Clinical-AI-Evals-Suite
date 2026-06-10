@@ -1,4 +1,6 @@
-
+**Pipeline Telemetry**<br>
+Arize Phoenix trace — capturing token consumption, latency, and per-skill cost breakdown for this encounter.
+![Case 10 Splinter Injury Vaccine Refusal Screen](../../images/Case%2010_Splinter%20Injury-%20Vaccine%20refusal.jpeg)
 
 
 **Case 10: 631- Splinter in finger at ER**
