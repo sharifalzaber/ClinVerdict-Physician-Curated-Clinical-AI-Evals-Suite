@@ -11,33 +11,23 @@ This directory houses the foundational clinical text assets used to benchmark th
 
 ---
 
-## 🏆 Public Showcase Cases (Vulnerability Cohort)
-To demonstrate the clinical validation framework without exposing the entire proprietary testing suite, 5 distinct adversarial cases are published in full below.
-(Showcase cases are listed by their original cohort IDs to maintain consistency with the automated evaluation logs.)
-Deep-dive clinical analysis is publicly available for 5 showcase cases. Full case materials for all 10 are available here. Extended analysis available upon professional inquiry.
+
+### Data Asset Availability & Open-Source Index
 
 
+| Case | Topic | Conversation | Reference Note | Agent Output | Judge Report | Deep Dive |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **1** | Neurology- HIV patient | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **2** | Lumbar Puncture | ✓ | ✓ | — | — | — |
+| **3** | Kidney Injury | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **4** | Blood Cancer | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **5** | Psychology | ✓ | ✓ | — | — | — |
+| **6** | Diabetes | ✓ | ✓ | — | — | — |
+| **7** | Pediatrics-Food-borne reaction | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **8** | All-negative responses | ✓ | ✓ | — | — | — |
+| **9** | Pediatrics- Adolescent Seizure | ✓ | ✓ | — | — | — |
+| **10** | Splinter Injury- Vaccine refusal | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 
-
-
-
-
-🔒 Gated Evaluation Cohorts (Case No.	1,2,5,6,9)
-
-To preserve dataset integrity and maintain the adversarial utility of this suite for production pipelines, the full conversational transcripts and consensus notes for other 5 cases are withheld from the public domain.
-
-The clinical focus categories for the restricted assets include:
-
-Case 1: Neurology for a HIV positive patient
-
-Case 2: Lumber Puncture for CSF study
-
-Case 5: Psychiatric case
-
-Case 6: Diabetis Mellitus
-
-Case 9: Epilepsy for a minor child
-
-
-ℹ️ Data Access Requests: Full access to the raw source data, golden test case scripts, and complete evaluation assets for Cases No. 1,2,5,6,9 is strictly restricted to health-tech engineering teams, clinical AI research groups, and hiring partners. To request access, please contact the author via email with your professional credentials.
+> *Note:* To maintain framework security and methodology integrity, full deep-dive reports and evaluator telemetry for selected test cases are gated.
+> 🔒 Reserved cases available upon professional inquiry — contact via LinkedIn or email.
