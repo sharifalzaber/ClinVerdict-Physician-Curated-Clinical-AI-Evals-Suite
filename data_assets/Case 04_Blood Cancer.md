@@ -1,5 +1,5 @@
 ### 🩻 Case 4: A rare form of Blood Cancer (Polycythemia Vera)
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+
 * **Raw Conversation Transcript:**
 ```
 Doctor: Hello Mister Strange, can you please confirm your age and ethnicity for the records.
