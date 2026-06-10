@@ -10,12 +10,28 @@ Instead of relying solely on uncalibrated benchmark metrics, this suite demonstr
 While AI engineers can build automated LLM judges, they lack the clinical intuition to isolate hidden medical liabilities. The value of ClinVerdict lies in **physician-led adversarial case selection**. By auditing large datasets, a small set of clinically deceptive, high-variance, and high-acuity encounters were isolated as a "Golden Test Case Suite" to expose exactly where automated AI validation gates collapse.
 
 ---
+## 🎯 Golden Suite Curation Criteria
+
+The 10 golden test cases were hand-curated from a larger open-access dataset after 
+systematic review. Selection criteria prioritized:
+
+- **Clinical specialty diversity:**<br>neurology, pediatrics, diabetes, nephrology, oncology,
+  psychiatry, infectious disease, clinical intervention, emergency.
+- **Documentation complexity:** <br> proxy historians, informed refusal, multi-system 
+  presentations, temporal complexity, complicated family history
+- **Adversarial potential:** <br> cases where standard NLP metrics would pass but 
+  clinical validators would fail
+
+This deliberate curation strategy is what transforms a benchmark into an adversarial evaluation suite.
+
+---
 
 ## 🛠️ The Multi-Layer Evaluation Workflow
 To track system-wide vulnerabilities, every clinical encounter in this suite is evaluated across three distinct dimensions:
 1. **The Execution Layer:** Evaluating how faithfully the ambient clinical AI agent converts raw, spoken dialogue tokens into structured medical text.
 2. **The Automated Judge Layer:** Auditing how effectively an automated LLM Judge tracks metric safety, completeness, and faithfulness via system tracing dashboards.
 3. **The Clinical Validator Layer (Human-in-the-Loop):** A manual expert medical audit to identify automated judge blindness, rubric flaws, and underlying defects within human-annotated baseline datasets.
+4. **The Pipeline Architecture Layer:** A cross-stage token propagation audit comparing extraction module(skill 1) output against SOAP generation (skill 2) — identifying tokens correctly extracted but silently dropped in the final result.
 
 ---
 
@@ -32,9 +48,9 @@ To track system-wide vulnerabilities, every clinical encounter in this suite is 
 * **[`evaluators/`](evaluators/)**
   * Houses the execution codebase, core system prompts, and automated LLM judge rubrics designed to flag clinical safety failures.
 * **[`analytics/`](analytics/)**
-  * **[Master Evaluation Dashboard](analytics/dashboard.md):** A data-dense matrix mapping all 10 complex clinical encounters, cross-referencing automated judge scores against manual clinical validation decisions.
-  * **[Clinical & Medico-Legal Deep-Dives](analytics/deep_dives.md):** Granular case reviews exposing high-severity clinical risk vectors (e.g., Temporal Collapse, Proxy Misattribution) across 3–5 protected showcase cohorts.
-  * **[Key Meta-Findings](analytics/meta_findings.md):** 4 nuanced, systemic discoveries revealing where automated evaluation metrics fall into blind spots.
+  * **[Master Evaluation Dashboard](analytics/README.md):** A data-dense matrix mapping all 10 complex clinical encounters, cross-referencing automated judge scores against manual clinical validation decisions.
+  * **[Clinical & Medico-Legal Deep-Dives](analytics/deep_dives/):** Granular case reviews exposing high-severity clinical risk vectors across 5 protected showcase cohorts.
+  * **[Key Meta-Findings](analytics/key_meta_findings.md):** 5 nuanced, systemic discoveries revealing where automated evaluation metrics fall into blind spots.
   * **[System Recommendations](analytics/recommendations.md):** Engineering-focused solutions to patch pipeline defects, including prompt-layer guardrails and Dual-Track UI layouts.
 
 ### 2. Planned Future Expansions
