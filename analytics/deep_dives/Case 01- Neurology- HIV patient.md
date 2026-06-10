@@ -1,6 +1,6 @@
 **Pipeline Telemetry**<br>
 Arize Phoenix trace — capturing token consumption, latency, and per-skill cost breakdown for this encounter.
-
+![Case 1 Neurology Screen](../../images/Case%2001%20_Neurology-%20HIV%20patient.jpeg)
 
 
 **Case 01: Neurology -HIV positive patient**
