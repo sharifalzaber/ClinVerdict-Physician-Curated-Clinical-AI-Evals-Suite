@@ -1,5 +1,5 @@
-### 🩻 Case 7:  Pediatrics Case
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+### 🩻 Case 7:  Pediatrics Case - Food-borne reaction
+
 * **Raw Conversation Transcript:**
 ```
 Doctor: How's the little one doing?
