@@ -1,5 +1,6 @@
 **Pipeline Telemetry**<br>
 Arize Phoenix trace — capturing token consumption, latency, and per-skill cost breakdown for this encounter.
+![Case 3 Kidney Injury Screen](../../images/Case%2003_Kidney%20Injury.jpeg)
 
 **Case 3: Kideny Injury**
 **Clinical Context:**
