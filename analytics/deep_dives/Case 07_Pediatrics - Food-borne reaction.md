@@ -1,4 +1,6 @@
-
+**Pipeline Telemetry**<br>
+Arize Phoenix trace — capturing token consumption, latency, and per-skill cost breakdown for this encounter.
+![Case 7 Pediatrics Food-borne Reaction Screen](../../images/Case%2007_Pediatrics%20-%20Food-borne%20reaction.jpeg)
 
 
 **Case 7: Pediatric case with food-borne reaction**
