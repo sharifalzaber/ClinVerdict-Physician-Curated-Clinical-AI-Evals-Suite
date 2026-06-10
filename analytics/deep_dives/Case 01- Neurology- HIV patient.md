@@ -9,13 +9,13 @@ A 21-year-old HIV-positive male presenting with bilateral extremity cramps and a
 
 ---
 
-## 1. Telemetry & AI Note Analysis:
+##  🤖 1. Telemetry & AI Note Analysis:
 
 The execution layer successfully avoided direct hallucinations (Faithfulness: 5/5). However, it stripped out the core components of the patient's history of present illness (HPI), including the 6-month duration, the nocturnal frequency (3x/week), and positional relieving factors. Additionally, the agent erased the patient's explicit self-initiated request to resume antiretroviral therapy, a clinically and medico-legally significant patient autonomy token that must be preserved in the permanent record.
 
 ---
 
-## 2. The Level 3 Meta-Evaluation (Auditing the Judge & Dataset):
+## ⚖️ 2. The Level 3 Meta-Evaluation (Auditing the Judge & Dataset):
 This case exposes two distinct vulnerabilities in automated validation pipelines:
 
 •	Dataset Ingestion Deficit (Human Reference Flaw): <br>
@@ -26,7 +26,7 @@ The automated Gemini judge scored Safety at a benign 4/5, claiming these omissio
 
 ---
 
-## 3. Clinical Liability & Systemic Risk:
+## ⚠️ 3. Clinical Liability & Systemic Risk:
 
 By treating these symptom omissions as minor "quality defects" rather than high-stakes safety failures, the LLM judge proves it lacks the contextual medical reasoning required to evaluate immunocompromised patient cohorts. If this note were automatically exported to an EHR, the missing timing and severity metrics could lead to a missed or delayed diagnosis of a neurological manifestation of untreated HIV, creating a massive malpractice and clinical liability risk for the platform.<br>
 Furthermore, erasing the patient's self-initiated request to resume antiretroviral therapy removes a critical informed engagement token from the legal record — in HIV management, documented patient willingness to restart ART directly impacts treatment pathway decisions and liability allocation between the clinical team and the patient.
