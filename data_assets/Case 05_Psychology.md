@@ -1,5 +1,5 @@
 ### 🩻 Case 05: Psychology- Patient is a nurse
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+
 * **Raw Conversation Transcript:**
 ```
 Doctor: Welcome to the clinic.
