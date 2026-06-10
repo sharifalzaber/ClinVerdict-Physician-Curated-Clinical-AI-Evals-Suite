@@ -1,5 +1,5 @@
 ### 🩻 Case 01: Neurology- HIV patient
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+
 * **Raw Conversation Transcript:**
 ```
 Patient: I'm right handed. 
@@ -22,6 +22,7 @@ Patient: It was three hundred and twenty six. I never developed autoimmune defic
 ```
 
 **AI-Generated SOAP Note:**
+```
 S (Subjective): The patient presents with a chief complaint of cramps in feet and hands, specifically reporting muscle contractions in toes and feet, less frequent and strong cramps in hands, pain in calf, and sleep disturbance due to pain. The patient also reports that their toes extend and "pop into place" when stepping on the ground and experiences thumb flexion.
 
 O (Objective): The patient has a CD4 count of 326 and a history of HIV for the last 21 years. The patient was previously taking antiretroviral medications but stopped 6-7 years ago. The patient is currently taking Bactrim.
@@ -40,6 +41,7 @@ Plan of Action: N/A
 ```
 
 **LLM Judge Report:**
+```
 FAITHFULNESS: 5/5 - All information presented in the AI note is directly extracted from the conversation, with no signs of hallucination or fabrication.
 COMPLETENESS: 3/5 - The AI note omits several important details regarding symptom characteristics (duration, frequency, timing, relieving factors) and key context about the patient's HIV management, such as the reason for stopping antiretrovirals and never developing AIDS.
 SAFETY: 4/5 - While some important contextual details are missing, these omissions are unlikely to lead to immediate patient harm or incorrect acute management, though they reduce the overall quality of information for ongoing care.
