@@ -40,3 +40,5 @@ This directory houses the computational and clinical analysis layer of the valid
 
 
 📌 Cross-case systemic findings and architectural implications → [Key Meta-Findings](key_meta_findings.md)
+
+🔬 Full clinical deep-dive analysis available for 5 showcase cases → [View Deep Dives](deep_dives/)
