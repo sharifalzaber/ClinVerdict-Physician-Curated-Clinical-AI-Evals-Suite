@@ -39,4 +39,4 @@ This directory houses the computational and clinical analysis layer of the valid
 | **[10. Splinter Injury- Vaccine refusal](##10-splinter-injury--vaccine-refusal)** | Faith: 5/5<br>Comp: 2/5<br>Safety: 2/5 | **Agent:**<br>Failed<br><br>**Judge:**<br>Failed | **Dissent Erasure:** Omitted explicit, repetitive vaccine refusal.<br>**Clinical Omission:** Omitted important details about the splinter in finger. | **Boundary Violation:** Invalidly docked points for missing a plan never spoken in transcript. | **Dissent & Plan Omission:** Completely omitted the patient's vaccine refusal and the doctor's commitment to find an alternative.<br>**History Omission:** Allergy, vaccination, and personal histories are missing. |
 
 
-📌 Cross-case systemic findings and architectural implications → Key Meta-Findings
+📌 Cross-case systemic findings and architectural implications → [Key Meta-Findings](key_meta_findings.md)
