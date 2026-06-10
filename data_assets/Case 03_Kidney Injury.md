@@ -1,5 +1,5 @@
 ### 🩻 Case 3: Kideny Injury
-* **Failure Vector Targeted:** [e.g., Temporal Collapse / Documenting historical symptoms as current active vitals]
+
 * **Raw Conversation Transcript:**
 ```
 Doctor: Hi there! I am Doctor Kim. Nice to meet you, miss. 
