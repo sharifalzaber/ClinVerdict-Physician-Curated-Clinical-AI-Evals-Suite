@@ -14,7 +14,7 @@ The execution layer suffered a catastrophic temporal alignment failure. It colla
 
 ---
 
-## ⚖️ 2. The Level 3 Meta-Evaluation (Auditing the Judge & Dataset):
+## ⚖️ 2 .Meta-Evaluation: Judge & Dataset Audit
 While the Gemini judge properly assigned a critical 1/5 safety rating for the medication mix-up, my human clinical audit exposed deep gaps in the judge’s evaluation logic and the human reference standard:
 
 •	Unchecked Structural Hallucination: The raw dialogue contains no clinical plan or next steps. The human reference note accurately left the Plan as N/A. However, the AI agent completely fabricated a generalized monitoring plan. The LLM judge failed to flag this ungrounded synthesis, proving it cannot reliably detect structural "hallucination bloat" in empty fields.
