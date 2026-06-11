@@ -13,9 +13,11 @@ A 72-year-old farmer presenting to the ER with a wooden splinter lodged beneath 
 The patient stated three critical facts: an outdated tetanus status (>10 years), a specific allergy to horse serum, and an explicit, repetitive refusal. While the agent correctly documented the tetanus status and horse serum allergy, it completely erased the third and  legally significant fact of the patient's hard refusal.
 Additionally the agent omitted the patient's prior home removal attempt using tweezers, a critical procedural history that directly impacts the clinical approach.
 
+•	Propagation Note: Patient’s vaccine refusal omission was confirmed as an inter-skill propagation failure, the token was present in Skill 1 extraction output but dropped at SOAP generation stage.
+
 ---
 
-## ⚖️ 2. The Level 3 Meta-Evaluation (Auditing the Judge's Transcript Boundary Failure):
+## ⚖️ 2. Meta-Evaluation: Judge & Dataset Audit
 This final case perfectly highlights the limitations of an automated judge's ability to evaluate a note's context strictly within the boundaries of a raw transcript:<br>
 •	The Judge's External Expectation Fallacy: <br> 
 The llm-judge penalizes the agent under Completeness and Safety for omitting a splinter removal plan. However, the transcript proves the clinician never articulated a removal strategy in the room. By demanding this, the judge commits a Boundary Violation, evaluating based on clinical expectations rather than text-matching constraints.<br>
