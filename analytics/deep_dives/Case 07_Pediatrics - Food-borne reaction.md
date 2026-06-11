@@ -18,6 +18,8 @@ The generation layer completely failed the basic clinical logic of a pediatric e
 
 •	Structural Fabrication: It copy-pasted subjective complaints directly into the Objective ("O") section, claiming the patient exhibited active symptoms like tummy pain and mouth scratching during the physical exam.
 
+•	Propagation Note: Birth history omission was confirmed as an inter-skill propagation failure, the token was present in Skill 1 extraction output but dropped at SOAP generation stage.
+
 ---
 
 ## ⚖️ 2. The Level 3 Meta-Evaluation (Auditing the Judge & Dataset):
