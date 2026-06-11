@@ -9,6 +9,8 @@ Instead of relying solely on uncalibrated benchmark metrics, this suite demonstr
 ### 💡 The Core Differentiator
 While AI engineers can build automated LLM judges, they lack the clinical intuition to isolate hidden medical liabilities. The value of ClinVerdict lies in **physician-led adversarial case selection**. By auditing large datasets, a small set of clinically deceptive, high-variance, and high-acuity encounters were isolated as a "Golden Test Case Suite" to expose exactly where automated AI validation gates collapse.
 
+ClinVerdict was independently designed, built, and evaluated by a practicing physician — from agent architecture and pipeline instrumentation to adversarial case curation and clinical meta-evaluation."
+
 ---
 ## 🎯 Golden Suite Curation Criteria
 
@@ -27,7 +29,7 @@ This deliberate curation strategy is what transforms a benchmark into an adversa
 ---
 
 ## 🛠️ The Multi-Layer Evaluation Workflow
-To track system-wide vulnerabilities, every clinical encounter in this suite is evaluated across three distinct dimensions:
+To track system-wide vulnerabilities, every clinical encounter in this suite is evaluated across 4 distinct dimensions:
 1. **The Execution Layer:** Evaluating how faithfully the ambient clinical AI agent converts raw, spoken dialogue tokens into structured medical text.
 2. **The Automated Judge Layer:** Auditing how effectively an automated LLM Judge tracks metric safety, completeness, and faithfulness via system tracing dashboards.
 3. **The Clinical Validator Layer (Human-in-the-Loop):** A manual expert medical audit to identify automated judge blindness, rubric flaws, and underlying defects within human-annotated baseline datasets.
@@ -35,21 +37,36 @@ To track system-wide vulnerabilities, every clinical encounter in this suite is 
 
 ---
 
-## 🏗️ System & Evaluation Architecture
-*(Placeholder for your multi-agent architecture diagram/text explanation and your Arize Phoenix tracing dashboard screenshots. This section proves you successfully hooked up automated telemetry tools to monitor your pipelines in real-time.)*
+## 🏗️ Agent Architecture
 
-```mermaid
-flowchart TD
-    A[🎙️ Clinical Conversation Input] --> B
 
-    subgraph AGENT ["⚙️ Clinical Scribe Agent"]
-        B["Skill 1: Clinical Fact Extraction\nModel: llama-3.3-70b-versatile"]
-        B --> C["Skill 2: SOAP Note Generation\nModel: llama-3.3-70b-versatile"]
-        C --> D["LLM Judge: Automated Evaluation\nModel: gemini-2.5-flash"]
-    end
-
-    D --> E[📋 Evaluated SOAP Output]
 ```
+[Conversation Input]
+       │
+       ▼
+[Skill 1: Clinical Fact Extraction] (llama-3.3-70b-versatile)
+       │
+       ▼
+[Skill 2: SOAP Note Generation]     (llama-3.3-70b-versatile)
+       │
+       ▼
+[SOAP Output]
+       │
+       ▼
+[LLM Judge]                         (gemini-2.5-flash)
+       │
+       ▼
+[📋 Evaluated SOAP Output]
+```
+
+### 🔬 Live Pipeline Telemetry — Arize Phoenix
+*Real-time span tracing across all three pipeline skills with token counts, 
+latency, and cost monitoring.*
+
+![Phoenix Tracing Dashboard](images/Phoenix%20Tracing.png)
+
+
+
 
 ---
 
@@ -62,9 +79,9 @@ flowchart TD
   * Houses the execution codebase, core system prompts, and automated LLM judge rubrics designed to flag clinical safety failures.
 * **[`analytics/`](analytics/)**
   * **[Master Evaluation Dashboard](analytics/README.md):** A data-dense matrix mapping all 10 complex clinical encounters, cross-referencing automated judge scores against manual clinical validation decisions.
-  * **[Clinical & Medico-Legal Deep-Dives](analytics/deep_dives/):** Granular case reviews exposing high-severity clinical risk vectors across 5 protected showcase cohorts.
-  * **[Key Meta-Findings](analytics/key_meta_findings.md):** 5 nuanced, systemic discoveries revealing where automated evaluation metrics fall into blind spots.
-  * **[System Recommendations](analytics/recommendations.md):** Engineering-focused solutions to patch pipeline defects, including prompt-layer guardrails and Dual-Track UI layouts.
+  * **[Clinical & Medico-Legal Deep-Dives](analytics/deep_dives/):** Granular case reviews exposing high-severity clinical risk vectors across 5 public showcase cases.
+  * **[Key Meta-Findings](analytics/key_meta_findings.md):** 6 nuanced, systemic discoveries revealing where automated evaluation metrics fall into blind spots.
+  * **[System Recommendations](analytics/recommendations.md):** Engineering-focused remediation strategies addressing generation failures, judge architecture, dataset quality, and pipeline integrity.
 
 ### 2. Planned Future Expansions
 * ⚠️ **Clinical Triage Evaluation Suite:** Curating adversarial datasets to stress-test acuity sorting, symptom prioritizing, and emergency red-flag sorting AI agents.
@@ -76,6 +93,5 @@ flowchart TD
 ## 💼 Professional Profile & Objective
 I am actively seeking roles within the Health-Tech and Clinical AI sectors, specifically focusing on **Clinical AI Evaluation, Safety Operations, Validation Architecture, and Human-in-the-Loop Oversight**. I bring a unique combination of clinical practice (MBBS), health sciences research (MSc), and hands-on LLM pipeline evaluation experience to engineering teams.
 
-📫 **Let's Connect:** [Your Email Address] | [Your LinkedIn Profile Link]
-
+📫 **Let's Connect:** email: szaber@uef.fi & sharifalzaber57@gmail.com | [ Linkedin: https://www.linkedin.com/in/sharif-al-zaber/
 
