@@ -19,13 +19,13 @@ While the Gemini judge properly assigned a critical 1/5 safety rating for the me
 
 •	Unchecked Structural Hallucination: The raw dialogue contains no clinical plan or next steps. The human reference note accurately left the Plan as N/A. However, the AI agent completely fabricated a generalized monitoring plan. The LLM judge failed to flag this ungrounded synthesis, proving it cannot reliably detect structural "hallucination bloat" in empty fields.
 
-•	Omission of Steroid & Substance History (Reference Bias): The human reference note entirely omitted the patient’s recent 3-day steroid pulse and marijuana history. Because the LLM judge evaluates completeness strictly against this flawed ground-truth baseline, it suffered from Reference Bias—failing to flag these missing clinical timelines simply because the benchmark itself was blind to them. This benchmark deprivation allowed a critical data-extraction failure to pass through the automated evaluation pipeline completely undetected.
+•	Reference Baseline Omission (Steroid & Marijuana): The human reference note entirely omitted the patient’s recent 3-day steroid pulse and marijuana history. Because the LLM judge evaluates completeness strictly against this flawed ground-truth baseline, it suffered from Reference Bias—failing to flag these missing clinical timelines simply because the benchmark itself was blind to them. This benchmark deprivation allowed a critical data-extraction failure to pass through the automated evaluation pipeline completely undetected.
 
 ---
 
 ## ⚠️ 3. Clinical Liability & Systemic Risk:
 The clinical risk profile of this agent's output is extreme. Polycythemia vera turning into secondary myelofibrosis is a high-risk hematological malignancy.
-If an EHR ingests a note claiming a patient is concurrently taking hydroxyurea, pegylated interferon, and lenalidomide, any covering clinician would assume the patient is undergoing a highly aggressive, active cytoreductive regimen. In reality, the patient is intolerant to all three. Re-prescribing or compounding these myelosuppressive agents due to a corrupted medication history could cause fatal bone marrow suppression, profound pancytopenia, or severe toxicity. This case confirms that automated judges can be completely blind to critical contextual data points like substance use and steroid pulses, reinforcing the need for human medical validators.
+If an EHR ingests a note claiming a patient is concurrently taking hydroxyurea, pegylated interferon, and lenalidomide, any covering clinician would assume the patient is undergoing a highly aggressive, active cytoreductive regimen. In reality, the patient is intolerant to all three. Re-prescribing or compounding these myelosuppressive agents due to a corrupted medication history could cause fatal bone marrow suppression, profound pancytopenia, or severe toxicity. This case confirms that automated judges can be completely blind to critical contextual data points like substance use, reinforcing the need for human medical validators.
 
 ---
 
