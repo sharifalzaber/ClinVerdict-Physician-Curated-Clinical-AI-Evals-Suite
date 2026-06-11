@@ -30,3 +30,7 @@ This finding exposes a distinct mechanical behavior where the LLM judge's intern
 Without any prompt instruction to evaluate the human reference note, the LLM judge independently identified and flagged a ground-truth contamination. The annotator's substitution of the patient's spoken 'autoimmune disease' with the ungrounded clinical diagnosis 'sarcoidosis.' This behavior was entirely outside the judge's designated role. It was not safety-triggered, not prompted, and not expected. It suggests that sufficiently capable LLM judges may spontaneously develop a meta-evaluation layer auditing the dataset itself rather than just the agent output. This has significant implications for automated dataset quality control in clinical AI pipelines.
 
 ---
+
+## The Silent Drop : Inter-Skill Propagation Failure —  Cases #4, #7, #9, #10
+A recurring pattern of inter-skill propagation failure was uncovered through cross-stage pipeline inspection: clinically significant tokens correctly extracted by Skill 1 were silently dropped by skill 2 in 4 out of 10 cases. Dropped tokens included informed refusal, family cardiac history, birth history, and substance use, all carrying medico-legal weight.
+This finding exposes a critical architectural blind spot that is : output-level evaluation alone is insufficient to guarantee pipeline integrity.
