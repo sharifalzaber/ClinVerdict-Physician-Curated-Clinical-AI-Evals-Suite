@@ -31,6 +31,8 @@ Without any prompt instruction to evaluate the human reference note, the LLM jud
 
 ---
 
-## The Silent Drop : Inter-Skill Propagation Failure —  Cases #4, #7, #9, #10
+## 6.The Silent Drop : Inter-Skill Propagation Failure —  Cases #4, #7, #9, #10
 A recurring pattern of inter-skill propagation failure was uncovered through cross-stage pipeline inspection: clinically significant tokens correctly extracted by Skill 1 were silently dropped by skill 2 in 4 out of 10 cases. Dropped tokens included informed refusal, family cardiac history, birth history, and substance use, all carrying medico-legal weight.
 This finding exposes a critical architectural blind spot that is : output-level evaluation alone is insufficient to guarantee pipeline integrity.
+
+---
