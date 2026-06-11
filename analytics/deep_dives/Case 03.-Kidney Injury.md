@@ -18,7 +18,7 @@ The agent successfully captured the historical trauma  (suspected bruised left k
 
 ---
 
-## ⚖️ 2. The Level 3 Meta-Evaluation (Auditing the Judge & Dataset):
+## ⚖️ 2. Meta-Evaluation: Judge & Dataset Audit
 This case provides clear evidence of systemic flaws within both the human benchmarking dataset and the LLM evaluator logic:
 
 •	Data Quality Flaw: <br>
