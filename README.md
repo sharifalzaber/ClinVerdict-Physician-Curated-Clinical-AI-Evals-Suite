@@ -38,6 +38,19 @@ To track system-wide vulnerabilities, every clinical encounter in this suite is 
 ## 🏗️ System & Evaluation Architecture
 *(Placeholder for your multi-agent architecture diagram/text explanation and your Arize Phoenix tracing dashboard screenshots. This section proves you successfully hooked up automated telemetry tools to monitor your pipelines in real-time.)*
 
+```mermaid
+flowchart TD
+    A[🎙️ Clinical Conversation Input] --> B
+
+    subgraph AGENT ["⚙️ Clinical Scribe Agent"]
+        B["Skill 1: Clinical Fact Extraction\nModel: llama-3.3-70b-versatile"]
+        B --> C["Skill 2: SOAP Note Generation\nModel: llama-3.3-70b-versatile"]
+        C --> D["LLM Judge: Automated Evaluation\nModel: gemini-2.5-flash"]
+    end
+
+    D --> E[📋 Evaluated SOAP Output]
+```
+
 ---
 
 ## 📂 Suite Architecture & Contents
@@ -64,3 +77,5 @@ To track system-wide vulnerabilities, every clinical encounter in this suite is 
 I am actively seeking roles within the Health-Tech and Clinical AI sectors, specifically focusing on **Clinical AI Evaluation, Safety Operations, Validation Architecture, and Human-in-the-Loop Oversight**. I bring a unique combination of clinical practice (MBBS), health sciences research (MSc), and hands-on LLM pipeline evaluation experience to engineering teams.
 
 📫 **Let's Connect:** [Your Email Address] | [Your LinkedIn Profile Link]
+
+
