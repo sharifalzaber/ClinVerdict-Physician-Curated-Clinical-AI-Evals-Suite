@@ -3,12 +3,14 @@ Arize Phoenix trace — capturing token consumption, latency, and per-skill cost
 ![Case 4 Blood Cancer Screen](../../images/Case%2004_Blood%20Cancer.jpeg)
 
 # Case 4: - polycythemia vera - a rare blood cancer
-A complex oncology patient with polycythemia vera progressing toward secondary myelofibrosis, presenting with an extensive history of discontinued cytoreductive therapies — hydroxyurea, pegylated interferon, and lenalidomide — all stopped due to severe intolerance. The encounter also included an undocumented recent steroid pulse and marijuana use.
+A complex oncology patient with polycythemia vera progressing toward secondary myelofibrosis, presenting with an extensive history of discontinued cytoreductive therapies of hydroxyurea, interferon, and lenalidomide, all stopped due to severe intolerance. The encounter also included an undocumented recent steroid pulse and marijuana use.
 
 ---
 
 ## 🤖 1. Telemetry & AI Note Analysis
-The execution layer suffered a catastrophic temporal alignment failure. It collapsed the patient's historical lines of oncological therapy (hydroxyurea, interferon, lenalidomide) — all discontinued due to severe intolerance — and propagated them as active concurrent medications across three SOAP sections. In the Subjective block, current symptoms of numbness, tingling, diarrhea, and fatigue were falsely attributed to these drugs as if they were ongoing treatments. The Assessment block then reinforced this error by framing the same discontinued agents as contributing factors to the patient's current clinical presentation. Finally, the Plan block explicitly listed all three as active medications requiring ongoing monitoring and adjustment — a complete fabrication with no grounding in the transcript
+The execution layer suffered a catastrophic temporal alignment failure. It collapsed the patient's historical lines of oncological therapy (hydroxyurea, interferon, lenalidomide), all discontinued due to severe intolerance and propagated them as active concurrent medications across three SOAP sections. In the Subjective block, current symptoms of numbness, tingling, diarrhea, and fatigue were falsely attributed to these drugs as if they were ongoing treatments. The Assessment block then reinforced this error by framing the same discontinued agents as contributing factors to the patient's current clinical presentation. Finally, the Plan block explicitly listed all three as active medications requiring ongoing monitoring and adjustment — a complete fabrication with no grounding in the transcript
+
+**Propagation Note:** Marijuana history omission was confirmed as an inter-skill propagation failure, the token was present in Skill 1 extraction output but dropped at SOAP generation stage.
 
 ---
 
