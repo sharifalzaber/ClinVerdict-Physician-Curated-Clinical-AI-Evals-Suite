@@ -22,7 +22,7 @@ The generation layer completely failed the basic clinical logic of a pediatric e
 
 ---
 
-## ⚖️ 2. The Level 3 Meta-Evaluation (Auditing the Judge & Dataset):
+## ⚖️ 2. Meta-Evaluation: Judge & Dataset Audit
 While the Gemini judge accurately docked points for the missing birth details and the messy Objective block formatting, my human clinical audit revealed two severe blind spots in the automated evaluator's logic:
 
 •	The Ground-Truth Proxy Shield: The automated judge failed to notice that the AI agent wrote the note as if the infant was speaking. However, a human audit revealed the reference note itself completely omitted the informant's identity. The judge cannot be penalized alone for this proxy blindness, as it was faithfully tracking a defective ground-truth dataset.<br>
