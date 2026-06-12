@@ -16,11 +16,11 @@ This case defines the hard boundary where automated evaluation fails to replicat
 ---
 
 ## 4. Safety Override of Reference Bias— Cases #3 & #10:<br>
-This finding exposes a distinct mechanical behavior where the LLM judge's internal safety alignment actively breaks explicit prompt constraints ("cross-check strictly against the human reference note") to protect clinical validity:
+This finding exposes a distinct mechanical behavior where the LLM judge's internal safety alignment appeared to actively breaks explicit prompt constraints ("cross-check strictly against the human reference note") to protect clinical validity:
 
 •	The Phenomenon: In both Case #3 (Dr. X care coordination) and Case #10 (informed vaccine refusal), the human reference notes suffered from severe documentation blind spots, completely omitting high-stakes clinical events spoken in the room.
 
-•	The Judge's Behavior: Instead of blindly anchoring to these flawed baselines (Reference Bias), the judge bypassed the human reference notes entirely, verified the raw transcripts, and penalized the agent for erasing these critical safety tokens.
+•	The Judge's Behavior: Instead of blindly anchoring to these flawed baselines (Reference Bias), the judge seemingly bypassed the human reference notes entirely, verified the raw transcripts, and penalized the agent for erasing these critical safety tokens.
 
 •	The Structural Implication: This proves that the judge's reference dependency is non-linear and risk-asymmetric. When a human baseline is flawed by omission, the judge's internal safety weights can override explicit prompt boundaries to act as an unprompted safety gatekeeper—provided the omitted token carries genuine clinical risk or regulatory care-coordination weight.
 
