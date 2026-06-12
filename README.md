@@ -1,6 +1,6 @@
 # ClinVerdict: Physician-Curated Clinical AI Evals Suite
 
-Physician-curated adversarial evaluation suite designed to expose safety-critical failure modes in healthcare AI pipelines. Initial focus: ambient medical scribe agents, with planned expansion to broader clinical AI use cases.
+Physician-curated adversarial evaluation suite designed to expose safety-critical failure modes in healthcare AI pipelines. Initial focus: ambient medical scribe agents, with planned expansion to broader medical AI use cases.
 
 ## 👨‍⚕️ Executive Overview
 Standard automated natural language processing (NLP) evaluation metrics routinely fail to detect catastrophic clinical documentation errors. ClinVerdict is an adversarial evaluation suite developed from a specialized clinical perspective to isolate safety-critical failure modes in healthcare AI workflows prior to production deployment.
