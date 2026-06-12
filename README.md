@@ -1,15 +1,18 @@
-# ClinVerdict: Physician-Curated Clinical AI Evaluation Suite
-Physician-curated clinical AI evaluation suite designed to identify safety-critical failure modes in healthcare AI workflows. Initial focus: medical scribes, with planned expansion to broader clinical AI use cases.
+# ClinVerdict: Physician-Curated Clinical AI Evals Suite
+
+Physician-curated adversarial evaluation suite designed to expose safety-critical failure modes in healthcare AI pipelines. Initial focus: ambient medical scribe agents, with planned expansion to broader clinical AI use cases.
 
 ## 👨‍⚕️ Executive Overview
 Standard automated natural language processing (NLP) evaluation metrics routinely fail to detect catastrophic clinical documentation errors. ClinVerdict is an adversarial evaluation suite developed from a specialized clinical perspective to isolate safety-critical failure modes in healthcare AI workflows prior to production deployment.
 
-Instead of relying solely on uncalibrated benchmark metrics, this suite demonstrates a practical, multi-layer evaluation workflow applied to a baseline ambient Electronic Health Record (EHR) scribe pipeline.
+Instead of relying solely on automated benchmark metrics, this suite demonstrates a practical, multi-layer evaluation workflow applied to a baseline ambient Electronic Health Record (EHR) scribe pipeline.
 
 ### 💡 The Core Differentiator
+ClinVerdict was independently designed, built, and evaluated by a practicing physician — from agent architecture and pipeline instrumentation to adversarial case curation and clinical meta-evaluation.<br>
+
 While AI engineers can build automated LLM judges, they lack the clinical intuition to isolate hidden medical liabilities. The value of ClinVerdict lies in **physician-led adversarial case selection**. By auditing large datasets, a small set of clinically deceptive, high-variance, and high-acuity encounters were isolated as a "Golden Test Case Suite" to expose exactly where automated AI validation gates collapse.
 
-ClinVerdict was independently designed, built, and evaluated by a practicing physician — from agent architecture and pipeline instrumentation to adversarial case curation and clinical meta-evaluation."
+
 
 ---
 ## 🎯 Golden Suite Curation Criteria
@@ -86,12 +89,13 @@ latency, and cost monitoring.*
 ### 2. Planned Future Expansions
 * ⚠️ **Clinical Triage Evaluation Suite:** Curating adversarial datasets to stress-test acuity sorting, symptom prioritizing, and emergency red-flag sorting AI agents.
 * 📋 **Discharge Summary Validation Suite:** Building evaluation workflows to audit continuity-of-care pipelines, specialized medication reconciliation, and post-discharge documentation.
-* 🇪🇺 **Regulatory Alignment:** Progressively mapping these evaluation workflows to comply directly with the human oversight, risk management, and dataset quality requirements mandated for high-risk systems under the **EU AI Act** and **GDPR**.
+* ⚖️ **Regulatory Alignment:** Evaluation workflow is informed by existing frameworks including the EU AI Act, GDPR, and HIPAA. Future expansion phases will progressively map evaluation frameworks to emerging global regulatory standards for high-risk clinical AI systems.
+
 
 ---
 
 ## 💼 Professional Profile & Objective
 I am actively seeking roles within the Health-Tech and Clinical AI sectors, specifically focusing on **Clinical AI Evaluation, Safety Operations, Validation Architecture, and Human-in-the-Loop Oversight**. I bring a unique combination of clinical practice (MBBS), health sciences research (MSc), and hands-on LLM pipeline evaluation experience to engineering teams.
 
-📫 **Let's Connect:** email: szaber@uef.fi & sharifalzaber57@gmail.com | [ Linkedin: https://www.linkedin.com/in/sharif-al-zaber/
+📫 **Let's Connect:** email: szaber@uef.fi & sharifalzaber57@gmail.com |  Linkedin: https://www.linkedin.com/in/sharif-al-zaber/
 
