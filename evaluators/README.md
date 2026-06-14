@@ -47,3 +47,4 @@ Automated execution traces and evaluation metrics are captured and visualized us
 ## 📄 File Index
 * **[`README.md`](README.md):** This documentation homepage.
 * **`clinical_scribe_agent.py`**: The complete python codebase executing both the scribe agent skills and the automated judge evaluation loops.
+* **`prompts.md`**: For prompt templates only (without execution logic), see in this directory
