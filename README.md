@@ -94,7 +94,7 @@ latency, and cost monitoring.*
   * Houses the execution codebase, core system prompts, and automated LLM judge rubrics designed to flag clinical safety failures.Full system prompts for Skill 1, Skill 2, and LLM Judge available in [prompts](evaluators/prompts.md)
 * **[`analytics/`](analytics/)**
   * **[Master Evaluation Dashboard](analytics/README.md):** A data-dense matrix mapping all 10 complex clinical encounters, cross-referencing automated judge scores against manual clinical validation decisions.
-  * **[Clinical & Medico-Legal Deep-Dives](analytics/deep_dives/):** Granular case reviews exposing high-severity clinical risk vectors across 5 public showcase cases.
+  * **[Clinical & Medico-Legal Deep-Dives](analytics/deep_dives/):** Granular case reviews exposing high-severity clinical risk vectors across 10 cases.
   * **[Key Meta-Findings](analytics/key_meta_findings.md):** 6 nuanced, systemic discoveries revealing where automated evaluation metrics fall into blind spots.
   * **[System Recommendations](analytics/recommendations.md):** Engineering-focused remediation strategies addressing generation failures, judge architecture, dataset quality, and pipeline integrity.
 
