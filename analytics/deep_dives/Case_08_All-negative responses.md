@@ -1,6 +1,6 @@
 **Pipeline Telemetry**<br>
 Arize Phoenix trace — capturing token consumption, latency, and per-skill cost breakdown for this encounter.
-![Case 6 Diabetes Screen](../../images/Case%2006_Diabetes.jpeg)
+![Case 8 Negative Response Screen](../../images/Case%2008_All-negative%20response.jpeg)
 
 
 # Case 08: All Answers Give Are "No"
