@@ -31,6 +31,17 @@ This deliberate curation strategy is what transforms a benchmark into an adversa
 
 ---
 
+## 🔬 Why Standard NLG Metrics Cannot Validate Clinical Safety
+
+ROUGE-L and BERT score are the conventional baselines for text generation evaluation. They are also clinically blind.
+→ [Full empirical analysis with data and physician rationale](analytics/why_standard_metrics_fail.md)
+
+I tested them on three cases from this suite where one is clinically safe, two unsafe. All three scored in the overlapping "poor" range. No threshold separates safe from dangerous outputs.Standard metrics failed this suite. That is why we built the Multi-Layer Evaluation Workflow below to catch what metrics cannot see
+
+
+---
+
+
 ## 🛠️ The Multi-Layer Evaluation Workflow
 To track system-wide vulnerabilities, every clinical encounter in this suite is evaluated across 4 distinct dimensions:
 1. **The Execution Layer:** Evaluating how faithfully the ambient clinical AI agent converts raw, spoken dialogue tokens into structured medical text.
