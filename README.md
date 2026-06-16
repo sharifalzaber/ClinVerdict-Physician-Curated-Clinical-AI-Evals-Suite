@@ -37,7 +37,7 @@ ROUGE-L and BERTScore are the conventional baselines for text generation evaluat
 
 I tested them on three cases from this suite where one is clinically safe, two unsafe. All three scored in the overlapping "poor" range. No threshold separates safe from dangerous outputs.→ [Full empirical analysis with data and physician rationale](analytics/why_standard_metrics_fail.md) <br>
 
-Standard metrics failed this suite. That is why we built the Multi-Layer Evaluation Workflow below to catch what metrics cannot see.
+Standard metrics failed this suite. That is why I built the Multi-Layer Evaluation Workflow below to catch what metrics cannot see.
 
 
 ---
