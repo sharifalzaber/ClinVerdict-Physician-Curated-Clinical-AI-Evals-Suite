@@ -10,24 +10,3 @@ This directory houses the foundational clinical text assets used to benchmark th
 * **The "Golden Test Suite":** Exactly 10 specific encounters were isolated to form a curated "adversarial suite." These cases contain complex clinical phenomena—such as high-acuity pediatric presentations, multi-system chronic disease management, and implicit patient dissent—specifically chosen because they expose systemic failure modes in LLM architectures.
 
 ---
-
-
-### Data Asset Availability & Open-Source Index
-
-
-| Case | Topic | Conversation | Reference Note | Agent Output | Judge Report | Deep Dive |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **1** | Neurology- HIV patient | ✓ | ✓ | ✓ | ✓ | ✓ |
-| **2** | Lumbar Puncture | ✓ | ✓ | — | — | — |
-| **3** | Kidney Injury | ✓ | ✓ | ✓ | ✓ | ✓ |
-| **4** | Blood Cancer | ✓ | ✓ | ✓ | ✓ | ✓ |
-| **5** | Psychology | ✓ | ✓ | — | — | — |
-| **6** | Diabetes | ✓ | ✓ | — | — | — |
-| **7** | Pediatrics-Food-borne reaction | ✓ | ✓ | ✓ | ✓ | ✓ |
-| **8** | All-negative responses | ✓ | ✓ | — | — | — |
-| **9** | Pediatrics- Adolescent Seizure | ✓ | ✓ | — | — | — |
-| **10** | Splinter Injury- Vaccine refusal | ✓ | ✓ | ✓ | ✓ | ✓ |
-
-
-> *Note:* To maintain framework security and methodology integrity, full deep-dive reports and evaluator telemetry for selected test cases are gated.
-> 🔒 Reserved cases available upon professional inquiry — contact via LinkedIn or email.
