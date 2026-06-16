@@ -33,10 +33,11 @@ This deliberate curation strategy is what transforms a benchmark into an adversa
 
 ## 🔬 Why Standard NLG Metrics Cannot Validate Clinical Safety
 
-ROUGE-L and BERT score are the conventional baselines for text generation evaluation. They are also clinically blind.
-→ [Full empirical analysis with data and physician rationale](analytics/why_standard_metrics_fail.md)
+ROUGE-L and BERTScore are the conventional baselines for text generation evaluation. They are also clinically blind.
 
-I tested them on three cases from this suite where one is clinically safe, two unsafe. All three scored in the overlapping "poor" range. No threshold separates safe from dangerous outputs.Standard metrics failed this suite. That is why we built the Multi-Layer Evaluation Workflow below to catch what metrics cannot see
+I tested them on three cases from this suite where one is clinically safe, two unsafe. All three scored in the overlapping "poor" range. No threshold separates safe from dangerous outputs.→ [Full empirical analysis with data and physician rationale](analytics/why_standard_metrics_fail.md) <br>
+
+Standard metrics failed this suite. That is why we built the Multi-Layer Evaluation Workflow below to catch what metrics cannot see.
 
 
 ---
