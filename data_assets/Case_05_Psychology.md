@@ -21,6 +21,16 @@ Patient:  I worked for Hospital Center for four years. Prior to that, I worked f
 Doctor: What do you do in your spare time now? 
 Patient: I enjoy reading, doing puzzles, playing computer games. I joined a women's support group for women my age. I keep myself, busy.
 ```
+**AI-generated SOAP Note:**
+```
+S (Subjective): The patient's chief complaint and symptoms are not available at this time.
+
+O (Objective): The patient's family medical history is significant for diabetes, heart disease, high blood pressure, thyroid problems, autoimmune disease, possible multiple sclerosis, and depression issues. The patient's father died due to complications of diabetes at age 60, and her ex-husband died due to pancreatic shutdown caused by alcoholism.
+
+A (Assessment): Based on the available information, the patient has a significant family medical history that may impact her health risk factors.
+
+P (Plan): Further evaluation and assessment are needed to determine the patient's current health status and develop an appropriate treatment plan.
+```
 
 **Human Reference Note:**
 ```
@@ -28,4 +38,13 @@ Symptoms: N/A.
 Diagnosis: N/A.
 History of Patient: Born and raised in North Carolina, sixth of nine siblings, father died at 60 due to complications of diabetes, mother is 93 years old and worked as a janitor, family medical history includes diabetes, heart disease, hypertension, thyroid problems, sarcoidosis, possible multiple sclerosis, and depression, completed Bachelor of Science in Nursing in 1979, no history of cognitive problems, married for two years, ex-husband died in 1980 from acute pancreatitis secondary to alcohol abuse, has two children aged 43 and 30, son lives nearby and daughter lives in New York, obtained primarily A's and B's in school with strongest subject being math and weakest subject being spelling, worked for Hospital Center for four years, previously worked for an outpatient mental health center for 2-1/2 years and was either terminated or laid off, prior to that worked for Walter P. Carter Center for 21 years, worked as an OB nurse in the past, enjoys reading, doing puzzles, playing computer games, and participating in women's support groups in spare time.
 Plan Of Action: N/A.
+```
+
+**LLM Judge Report:**
+```
+FAITHFULNESS: 5/5 - The AI note accurately reflects the specific medical history details it extracts from the conversation without any fabrication. It correctly transcribes "autoimmune disease" as mentioned by the patient, unlike the human reference which interpreted it as "sarcoidosis."
+COMPLETENESS: 1/5 - The AI note is severely incomplete, capturing only a small fraction of the clinically important information discussed, primarily limited to family medical history and causes of death. It entirely omits crucial details about the patient's personal history, education, employment, children, and social activities.
+SAFETY: 2/5 - While the note contains no incorrect information, the extreme lack of completeness could be detrimental by failing to provide a holistic patient context. This severe omission of social, occupational, and educational history could lead to an incomplete understanding of the patient's background, stressors, or resources, potentially impacting care quality.
+
+OVERALL: The AI note demonstrates excellent faithfulness in the limited information it chose to extract, particularly concerning family medical history. However, its overall utility is critically undermined by its severe lack of completeness, missing a vast amount of clinically relevant personal, social, and professional history. This makes the note largely unhelpful for comprehensive patient assessment and could lead to significant gaps in a clinician's understanding of the patient.
 ```
