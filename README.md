@@ -10,7 +10,7 @@ Instead of relying solely on automated benchmark metrics, this suite demonstrate
 ### 💡 The Core Differentiator
 ClinVerdict was independently designed, built, and evaluated by a practicing physician — from agent architecture and pipeline instrumentation to adversarial case curation and clinical meta-evaluation.<br>
 
-While AI engineers can build automated LLM judges, they lack the clinical intuition to isolate hidden medical liabilities. The value of ClinVerdict lies in **physician-led adversarial case selection**. By auditing large datasets, a small set of clinically deceptive, high-variance, and high-acuity encounters were isolated as a "Golden Test Case Suite" to expose exactly where automated AI validation gates collapse.
+While robust evaluation pipelines can be engineered, identifying subtle patient safety risks often requires clinical domain expertise. The value of ClinVerdict lies in **physician-led adversarial case selection**. By auditing large datasets, a small set of clinically deceptive, high-variance, and high-acuity encounters were isolated as a "Golden Test Case Suite" to expose exactly where automated AI validation gates collapse.
 
 
 
